@@ -222,22 +222,44 @@ public String toString() {
 	}
 	public void display(int n,int m)
 	{
-		
-		for(int i = 0;i<n;i++)
+		int count=0;
+		for(int i=0;i<n;i++)
+    	{
+    		int j=0;
+    		for(;j<m;j++)
+    		{
+    			if(a[i][j]==0)
+    				count++;	
+    		}
+    	}
+		if(count!=a.length)
+    	{
+    		int i=0; 
+    	for(i=0;i<n-1;i++)
+    	{
+    		int j=0;
+    		for(;j<n;j++)
+    		{
+    			System.out.print(a[i][j]+" ");
+    		}
+    		
+    		System.out.println();
+    	}
+    	int k=0;
+    	for(k=0;k<n-1;k++)
 		{
-			for(int j = 0;j<n;j++)
-			{
-				if(j!=n-1)
-				System.out.print(a[i][j]+" ");
-				else
-					System.out.print(a[i][j]);	
-				
-			}
-			System.out.println();
+			System.out.print(a[i][k]+" ");
 		}
+		System.out.print(a[i][k]);
+    	}
+    	else
+    		System.out.println("No edges");
+    	
+    }
 	}
 	 
- }
+	 
+ 
 
 
 public class Solution {
