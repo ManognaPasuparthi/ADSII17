@@ -169,10 +169,7 @@ public String toString() {
         
        
          s.append(b[w] + " ");
-         if(w==v-1)
-         {
-        	 s.append(b[w]); 
-         }
+         
         }
         s.append("\n");
     }
