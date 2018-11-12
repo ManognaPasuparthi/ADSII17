@@ -253,7 +253,7 @@ public String toString() {
 		System.out.print(a[i][k]);
     	}
     	else
-    		System.out.println("No edges");
+    		{System.out.println("No edges");}
     	
     }
 	}
