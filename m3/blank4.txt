@@ -1,0 +1,15 @@
+balnk-4
+Write true/false, for the following statements.
+
+
+
+The reverse postorder of a digraph's reverse is the same as the postorder of the digraph.
+false
+Is a self-loop a cycle? true
+The postorder of a digraph's reverse is the topological order.true
+
+A directed acyclic graph (or DAG) is a digraph with no directed cycles.true
+
+The indegree of a vertex is the number of edges pointing from it. The outdegree of a vertex is the number of edges pointing to it.
+true
+Each vertex of a Digraph G is its own strong component.

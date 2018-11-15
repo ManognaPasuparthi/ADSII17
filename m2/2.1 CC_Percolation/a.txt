@@ -1,0 +1,419 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+false
+
+Your Output: 
+false
+
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+false
+
+Your Output: 
+false
+
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 3: Passed ##########
+Expected Output: 
+false
+
+Your Output: 
+false
+
+----------------------------------------
+########## Testcase 4: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 5: Passed ##########
+Expected Output: 
+false
+
+Your Output: 
+false
+
+----------------------------------------
+########## Testcase 6: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 7: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 8: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 9: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 10: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 11: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 12: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 13: Passed ##########
+Expected Output: 
+false
+
+Your Output: 
+false
+
+----------------------------------------
+########## Testcase 14: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 15: Passed ##########
+Expected Output: 
+false
+
+Your Output: 
+false
+
+----------------------------------------
+########## Testcase 16: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 17: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 18: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 19: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 20: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 21: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 22: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 23: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+Result: 24/24 testcases passed.
+Starting audit...
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:4:1: Duplicate import to line 1 - java.io.BufferedReader. [RedundantImport]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:5:1: Duplicate import to line 2 - java.io.IOException. [RedundantImport]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:7:8: Unused import - java.util.StringTokenizer. [UnusedImports]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:11:1: Duplicate import to line 6 - java.util.NoSuchElementException. [RedundantImport]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:13: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:13:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:15:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:15:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:15:33: Parameter args should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:17:24: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:17:25: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:18:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:18:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:19: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:20:11: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:20:12: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:26: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:27:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:27:13: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:27:13: Variable 'V' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:28:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:28:13: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:28:13: Variable 'E' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:29:16: Variable 'b' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:29:17: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:29:17: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:30:18: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:30:21: Variable 'adj' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:31:6: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:31:9: Variable 'cc' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:32: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:33:6: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:34:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:34:22: Parameter V should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:34:26: 'V' hides a field. [HiddenField]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:34:26: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:35:6: '{' at column 6 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:36:16: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:36:17: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:37: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:38:13: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:38:14: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:38:30: 'typecast' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:38:39: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:38:40: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:39: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:39:13: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:39:19: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:39:20: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:39:22: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:39:23: '<=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:39:25: '<=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:39:27: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:40:24: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:40:25: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:42:2: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:42:6: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:43:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:46:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:46:5: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:47:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:50:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:50:23: Parameter v should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:51:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:54:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:54:1: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:54:14: Parameter in should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:55:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:57:9: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:57:10: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:58:3: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:58:5: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:58:7: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:59:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:61:25: Empty statement. [EmptyStatement]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:63:6: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:63:8: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:63:10: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:64:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:65:11: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:66:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:67: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:71:17: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:71:19: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:71:20: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:72:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:72:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:73:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:73:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:74:20: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:75:10: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:75:11: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:78:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:78:15: Parameter v should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:78:21: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:78:21: Parameter w should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:79:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:86: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:87:8: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:87:11: Variable 'marked' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:88:4: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:88:7: Variable 'id' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:89:4: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:89:7: Variable 'size' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:90:1: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:90:5: Variable 'count' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:91:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:91:1: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:91:11: Parameter g should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:92:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:93:15: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:93:34: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:93:35: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:94:11: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:94:12: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:94:25: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:94:26: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:95:13: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:95:14: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:95:27: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:95:28: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:96:12: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:96:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:96:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:96:21: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:96:22: '<=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:96:24: '<=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:96:30: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:97:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:98:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:99:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:101:31: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:107:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:107:10: Parameter g should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:107:18: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:107:18: Parameter v should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:108:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:109:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:109:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:110:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:110:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:112:12: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:113:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:115:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:116:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:117:31: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:121:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:121:15: Parameter v should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:125:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:128:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:128:17: Parameter v should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:133:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:133:19: Parameter v should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:133:25: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:133:25: Parameter w should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:134:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:138:21: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:138:23: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:140:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:140:21: Parameter v should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:141:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:142:13: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:142:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:142:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:143: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:143:11: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:143:13: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:143:14: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:143:15: '||' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:143:17: '||' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:143:18: '>=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:143:20: '>=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:144: Line is longer than 80 characters (found 101). [LineLength]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:144:97: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:144:98: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:146:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:147:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:149:11: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:149:17: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:149:19: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:150:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:152:9: '}' at column 2 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:153: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:166: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:167: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:170: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:171: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:173: Line is longer than 80 characters (found 105). [LineLength]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:176: Type Javadoc comment is missing @param <Item> tag. [JavadocType]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:177:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:177:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:178:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:181: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:182:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:183:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:189:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:197: Expected @return tag. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:204: Expected @return tag. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:211:21: Parameter item should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:211:26: Expected @param tag for 'item'. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:223: Expected @return tag. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:224: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:228: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:229:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:231: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:231:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:232: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:232:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:234:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:235: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\18031J0017_ADS1\ADSII17\m2\2.1 CC_Percolation\Solution.java:237: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 211 errors.
+
+
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   a.txt
+
+no changes added to commit
+
+

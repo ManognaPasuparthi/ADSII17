@@ -1,0 +1,18 @@
+fill in the blank-3
+ private void bfs(Digraph G, int s) {
+        Queue<Integer> q = new Queue<Integer>();
+        marked[s] = true;
+        distTo[s] = 0;
+        q.enqueue(s);
+        while (!q.isEmpty()) {
+            int v = q.dequeue();
+            for (int w : G.adj(v)) {
+                if (!marked[w]) {
+                    edgeTo[w] = v;
+                    distTo[w] = distTo[v] + 1;
+                    marked[w] = true;
+                    q.enqueue(w);
+                }
+            }
+        }
+    }
