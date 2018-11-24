@@ -98,7 +98,13 @@ class Bellman
 			for(int i=0;i<distto.length;i++)
 			{		
 				if(i==m)
+					if(distto[i]!=Double.POSITIVE_INFINITY)
 					System.out.println(distto[i]);
+					else
+					{
+						System.out.println("No Path Found.");
+					}
+				
 				
 			}
 		}
