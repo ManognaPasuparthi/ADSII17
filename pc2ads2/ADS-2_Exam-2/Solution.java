@@ -10,7 +10,7 @@ class Edge
 {
 @Override
 	public String toString() {
-		return  " "+v + "-" + w + "  " + (float)weight +"0000"+" ";
+		return  " "+v + "-" + w + " " + (float)weight +"0000"+" ";
 	}
 public final int v; int w;
 public final double weight;
@@ -67,6 +67,9 @@ class Graph
 		 for(int j=adj[i].size()-1;j>=0;j--)
 		 {
 			System.out.print(adj[i].get(j));
+                        if(j==0)
+System.out.print(" ");
+
 		 }
 		 if(i!=V-2)
 		 System.out.println();
