@@ -1,0 +1,402 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+6 vertices 6 edges
+0: 0-3 1.00000  0-1 2.00000  
+1: 1-2 4.00000  1-4 5.00000  0-1 2.00000  
+2: 2-4 1.00000  3-2 3.00000  1-2 4.00000  
+3: 3-2 3.00000  0-3 1.00000  
+4: 2-4 1.00000  1-4 5.00000  
+5:
+
+Your Output: 
+6 vertices 6 edges
+0 : 0-3 1.00000  0-1 2.00000 
+1 : 1-2 4.00000  1-4 5.00000  0-1 2.00000 
+2 : 2-4 1.00000  3-2 3.00000  1-2 4.00000 
+3 : 3-2 3.00000  0-3 1.00000 
+4 : 2-4 1.00000  1-4 5.00000 
+5 :
+
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+10 vertices 11 edges
+0: 0-7 221.00000  0-4 78.00000  
+1: 1-7 158.00000  1-7 159.00000  1-6 92.00000  
+2: 2-9 237.00000  2-5 179.00000  2-4 55.00000  
+3: 3-7 205.00000  
+4: 4-5 191.00000  2-4 55.00000  0-4 78.00000  
+5: 4-5 191.00000  2-5 179.00000  
+6: 1-6 92.00000  
+7: 7-9 157.00000  3-7 205.00000  1-7 158.00000  1-7 159.00000  0-7 221.00000  
+8: 
+9: 7-9 157.00000  2-9 237.00000
+
+Your Output: 
+10 vertices 11 edges
+0 : 0-7 221.00000  0-4 78.00000 
+1 : 1-7 158.00000  1-7 159.00000  1-6 92.00000 
+2 : 2-9 237.00000  2-5 179.00000  2-4 55.00000 
+3 : 3-7 205.00000 
+4 : 4-5 191.00000  2-4 55.00000  0-4 78.00000 
+5 : 4-5 191.00000  2-5 179.00000 
+6 : 1-6 92.00000 
+7 : 7-9 157.00000  3-7 205.00000  1-7 158.00000  1-7 159.00000  0-7 221.00000 
+8 :
+9 : 7-9 157.00000  2-9 237.00000
+
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+No Path Found.
+
+Your Output: 
+Infinity
+No Path Found.
+
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+370.0
+
+Your Output: 
+378.0
+
+----------------------------------------
+########## Testcase 4: Failed ##########
+Expected Output: 
+No Path Found.
+
+Your Output: 
+Infinity
+
+----------------------------------------
+########## Testcase 5: Failed ##########
+Expected Output: 
+692.0
+5 2 4 0 7 1
+
+Your Output: 
+Infinity
+
+----------------------------------------
+Result: 0/6 testcases passed.
+Starting audit...
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:3:8: Unused import - java.util.Hashtable. [UnusedImports]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:4:8: Unused import - java.util.Iterator. [UnusedImports]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:6:8: Unused import - java.util.Set. [UnusedImports]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:7:1: Illegal import - sun.misc.Queue. [IllegalImport]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:7:8: Unused import - sun.misc.Queue. [UnusedImports]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:9: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:9: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:10:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:12:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:13:28: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:13:29: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:13:56: 'typecast' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:13:64: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:13:70: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:13:71: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:15:1: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:15:18: Variable 'v' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:15:21: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:15:25: Variable 'w' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:16:1: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:16:21: Variable 'weight' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:17:2: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:17:7: Parameter v should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:17:11: 'v' hides a field. [HiddenField]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:17:14: Parameter w should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:17:18: 'w' hides a field. [HiddenField]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:17:21: Parameter weight should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:17:28: 'weight' hides a field. [HiddenField]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:18:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:24:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:24:1: '{' at column 1 should have line break after. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:26:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:26:1: '{' at column 1 should have line break after. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:28:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:28:1: '{' at column 1 should have line break after. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:29:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:29:12: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:35: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:36:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:37:2: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:37:14: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:37:16: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:37:21: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:37:22: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:38:2: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:39:2: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:39:2: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:39:15: Parameter V should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:39:19: 'V' hides a field. [HiddenField]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:39:19: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:40:2: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:42:43: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:42:44: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:43: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:43:22: '<=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:46:2: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:46:22: Parameter s should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:46:28: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:46:28: Parameter d should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:46:34: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:46:34: Parameter weight should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:47:2: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:47:2: '{' at column 2 should have line break after. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:47:3: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:48:17: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:48:18: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:48:29: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:48:31: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:49:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:49:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:49:30: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:49:32: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:51:7: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:51:8: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:52:7: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:52:8: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:56:28: Parameter v should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:57:2: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:57:2: '{' at column 2 should have line break after. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:58:2: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:58:6: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:59:2: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:62:2: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:63:2: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:64:30: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:64:31: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:64:32: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:64:33: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:64:45: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:64:46: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:64:51: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:64:52: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:65:13: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:65:24: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:65:25: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:65:26: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:65:27: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:65:28: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:65:30: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:66:10: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:66:10: '{' at column 3 should have line break after. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:66:11: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:66:31: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:67:21: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:67:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:67:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:67:41: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:67:42: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:67:44: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:67:45: '>=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:67:47: '>=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:67:49: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:68:18: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:71: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:71:20: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:71:22: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:71:24: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:71:25: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:71:26: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:73: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:75: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:78: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:79:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:80:20: Variable 'marked' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:80:26: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:80:26: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:81:17: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:81:20: Variable 'edgeto' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:82:24: Variable 'distto' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:82:30: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:82:30: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:83:17: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:83:24: Variable 'd' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:84:17: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:84:25: Parameter e should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:84:33: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:84:33: Parameter s should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:85:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:86:33: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:87:33: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:88:28: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:88:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:88:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:88:37: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:88:38: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:88:39: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:88:45: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:89:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:90:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:90:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:91: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:93:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:93:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:94: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:97:17: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:97:37: Parameter m should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:98:28: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:98:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:98:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:98:37: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:98:38: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:98:39: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:98:53: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:99: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:99:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:100: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:100:35: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:100:37: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:100:39: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:102: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:106:17: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:106:28: Parameter G should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:106:34: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:107:18: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:108: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:109: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:111:34: '{' at column 6 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:114:34: '{' at column 6 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:119: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:122: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:122:8: Name 'fw' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:123: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:124:6: Variable 'edgeto' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:124:14: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:124:14: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:125:8: Variable 'distto' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:125:16: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:125:16: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:126:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:126:4: Parameter g should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:126:12: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:126:12: Parameter m should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:127:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:128:17: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:129:17: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:131:12: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:131:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:131:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:131:21: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:131:22: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:131:23: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:131:29: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:132:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:133:20: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:133:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:133:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:133:29: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:133:30: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:133:31: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:133:37: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:134:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:135:37: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:135:38: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:138:12: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:138:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:138:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:138:21: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:138:22: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:138:23: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:138:29: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:139:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:140:20: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:141:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:142:45: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:142:46: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:143:45: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:143:46: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:144: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:146:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:146:32: '>=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:146:34: '>=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:147:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:148:37: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:148:38: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:149:37: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:149:38: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:154: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:154: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:161: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:169:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:169:14: Parameter s should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:169:20: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:169:20: Parameter d should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:170:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:171: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:173: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:176: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:176:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:177:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:177:33: Parameter args should be final. [FinalParameters]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:177:44: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:178:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:179:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:179:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:180:37: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:180:38: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:181:23: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:181:24: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:182:23: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:182:24: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:183:24: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:183:25: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:183:37: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:183:38: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:184:20: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:184:31: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:184:32: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:184:33: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:184:36: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:185:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:186:32: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:186:33: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:187:32: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:187:33: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:190:32: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:190:33: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:192: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:194:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:194:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:195:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:195:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:196: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:197: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:197:23: 'switch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:198:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:203:31: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:203:32: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:204:35: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:204:36: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:204:50: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:205:23: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:205:24: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:207:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:208:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:213: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:214:32: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:214:33: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:215:32: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:215:33: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:216:32: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:216:33: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:217:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:217:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:217:39: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\18031J0017_ADS1\ADSII17\pc2ads2\ADS-2_Exam-2\Solution.java:218:39: ',' is not followed by whitespace. [WhitespaceAfter]
+Audit done.
+Checkstyle ends with 305 errors.
+
+
+[master 75528e2] "check_style_score -> 0 of 6 passed. style score: 0/1 "
+ 7 files changed, 126 insertions(+), 3 deletions(-)
+ create mode 100644 pc2ads2/ADS-2_Exam-2/Bellman.class
+ rewrite pc2ads2/ADS-2_Exam-2/Edge.class (78%)
+ rewrite pc2ads2/ADS-2_Exam-2/Solution.class (100%)
+ create mode 100644 pc2ads2/ADS-2_Exam-2/a.txt
+ create mode 100644 pc2ads2/ADS-2_Exam-2/fw.class
+
+

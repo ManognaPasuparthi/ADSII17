@@ -119,7 +119,7 @@ class Bellman
 			 
 		 }
 }
- class fw {
+ /*class fw {
 	
 Edge edgeto[][];
 double distto[][];
@@ -172,7 +172,7 @@ void display(int s,int d)
 			System.out.println(distto[s][d]);
 	
 }
-}
+}*/
 public class Solution {
 	public static void main(String args[])
 	{
@@ -211,12 +211,12 @@ public class Solution {
 			break;
 		case "ViaPaths":
 			
-			int c11=s.nextInt();
+			/*int c11=s.nextInt();
 			int c12=s.nextInt();
 			int c13=s.nextInt();
 			fw f=new fw(g,c11);
 			f.display(c12,c13);
-			break;
+			break;*/
 		}
 	}
 
