@@ -11,7 +11,7 @@ class Edge
 	}
 public final int v; int w;
 public final double weight;
-public Edge(int v, int w, double weight)
+ Edge(int v, int w, double weight)
 {
 this.v = v;
 this.w = w;
