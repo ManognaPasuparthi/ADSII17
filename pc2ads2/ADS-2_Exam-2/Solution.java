@@ -61,6 +61,7 @@ class Graph
 		 {
 			System.out.print(adj[i].get(j));
 		 }
+		 if(i!=V-2)
 		 System.out.println();
 		 
 	 }
