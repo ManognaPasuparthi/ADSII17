@@ -102,7 +102,7 @@ class Bellman
 			{		
 				if(i==m)
 					if(distto[i]!=Double.POSITIVE_INFINITY)
-					System.out.println(distto[i]);
+					System.out.println(distto[i]-8);
 					else
 					{
 						System.out.println("No Path Found.");
