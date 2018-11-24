@@ -212,7 +212,7 @@ public class Solution {
 		dj.display(c2);
 		if(!a.contains(c1) || !a.contains(c2))
 		{
-			System.out.println("No Path Found.");
+			//System.out.println("No Path Found.");
 		}
 			break;
 		case "ViaPaths":
