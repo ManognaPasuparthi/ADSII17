@@ -1,0 +1,38 @@
+package m10;
+
+public class LCS{
+	int lcs(char[] x,char[] y,int m,int n)
+	{
+		int a[][]=new int[m+1][n+1];
+		for(int i=0;i<=m;i++)
+		{
+			for(int j=0;j<=n;j++)
+			{
+				if(i==0 || j==0)
+					a[i][j]=0;
+				else if(x[i-1]==y[j-1])
+					a[i][j]=a[i-1][j-1]+1;
+				else 
+					a[i][j]=max(a[i-1][j],a[i][j-1]);
+			}
+		}
+		//System.out.println(a[m][n]);
+		return a[m][n];
+	}
+	int max(int a,int b)
+	{
+		return (a>b)?a:b;
+	}
+	public static void main(String[] args)
+	{
+		LCSubsequence lcs=new LCSubsequence();
+		String s1="AGGTAB";
+		String s2="GXTXAYB";
+		char[] x=s1.toCharArray();
+		char[] y=s1.toCharArray();
+		int m=x.length;
+		int n=y.length;
+		System.out.println("length of LCS is"+" "+lcs.lcs(x, y, m, n));
+	}
+
+}
