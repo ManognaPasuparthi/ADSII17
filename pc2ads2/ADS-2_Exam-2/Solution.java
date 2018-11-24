@@ -63,7 +63,7 @@ class Graph
  {
 	 System.out.println(V-1+" vertices "+count+" edges");
 	 for(int i = 0;i<V-1;i++)
-	 {System.out.print(i +" :");
+	 {System.out.print(i +":");
 		 for(int j=adj[i].size()-1;j>=0;j--)
 		 {
 			System.out.print(adj[i].get(j));
